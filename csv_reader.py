@@ -34,7 +34,7 @@ for file in files:
                 LCC[key][1] += 1
                 total_use = int(davis_data[row][1]) + int(davis_data[row][2])
                 LCC[key][2] += total_use
-    namefile = 'davis_new_totals_' + str(acc) + '.csv'
+    namefile = 'davis_results_' + str(acc) + '.csv'
     output_file = open(namefile,'w',newline='')
     outputWriter = csv.writer(output_file)
     outputWriter.writerow(['Subject','Total Items','Total Usage'])
