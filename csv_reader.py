@@ -34,7 +34,7 @@ for file in files:
     #add rate
     for key in LCC:
         try:
-            LCC[key].append(LCC[key][1]/LCC[key][2])
+            LCC[key].append(round(LCC[key][1]/LCC[key][2],2))
         except ZeroDivisionError:
             LCC[key].append(0)
     namefile = 'davis_results_' + str(acc) + '.csv'
@@ -46,3 +46,12 @@ for file in files:
     output_file.close()
     acc += 1
     davis_data.clear()
+
+
+
+
+
+
+
+
+
