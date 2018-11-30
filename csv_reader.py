@@ -12,7 +12,7 @@ for file in files:
            'E': ['American History', 0, 0], 'F': ['Local American History', 0, 0],
            'G': ['Geography, Anth, Recreation', 0, 0], 'H': ['Social Sciences', 0, 0],
            'J': ['Poli Sci', 0, 0], 'K': ['Law', 0, 0], 'L': ['Education', 0, 0],
-            'N': ['Fine Arts', 0, 0], 'P': ['Language/Literature', 0, 0],
+            'N': ['Fine Arts', 0, 0], 'P': ['Language-Literature', 0, 0],
            'Q': ['Science', 0, 0], 'R': ['Medicine', 0, 0],
            'T': ['Technology', 0, 0], 'U': ['Military Sci', 0, 0], 'V': ['Naval Science', 0, 0],
            'Z': ['Library Science', 0, 0]}

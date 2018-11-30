@@ -16,14 +16,16 @@ LCC = {'General Works':[], 'Philosophy, Psychology, Religion':[],
 
 for key in LCC:
     acc = 2008
+    acc2 = 0.1
     for file in files:
         dfile = open(file,encoding='utf-8')
         dfile_reader = csv.reader(dfile)
         davis_data = list(dfile_reader)
         for x in davis_data:
             if key == x[0]:
-                LCC[key].append([acc,x[1],x[2]])
+                LCC[key].append([acc,x[1],round(float(x[2])*acc2)])
         acc += 1
+        acc2 += 0.1
         davis_data.clear()
 
 for key in LCC:
